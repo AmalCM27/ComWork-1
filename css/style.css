@@ -331,7 +331,7 @@ body {
 .__select__input {
   display: none;
 }
- 
+
 .__select__input:checked+label {
   background-color: #dedede;
 }
@@ -360,4 +360,16 @@ body {
 .__select__label:hover {
   background-color: #333a58 !important;
   color: #ffffff;
+}
+
+.colortext {
+  color: rgb(119, 114, 241);
+  max-width: 1317px;
+  height: 188px;
+  margin-left: -1px;
+  margin-right: 14px;
+  margin-top: 294px;
+  margin-bottom: -408px;
+  font-size: 72px;
+  line-height: 130%;
 }
