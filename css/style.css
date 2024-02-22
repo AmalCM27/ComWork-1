@@ -183,3 +183,14 @@ body {
   flex-grow: 0;
   margin: 2px 112px;
 }
+
+
+.sec_fet {
+  position: static;
+  width: 184px;
+  height: 42px;
+  display: flex;
+  order: 1;
+  flex-grow: 0;
+  margin: 14px -290px;
+}
