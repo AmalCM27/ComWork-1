@@ -260,3 +260,17 @@ body {
   cursor: pointer;
   transition: 0.5s;
 }
+
+.__select__title::before,
+.__select__title::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  display: block;
+  width: 10px;
+  height: 2px;
+  transition: all 0.3s ease-out;
+  background-color: #333333;
+  transform: translate(-3px, -50%) rotate(45deg);
+}
