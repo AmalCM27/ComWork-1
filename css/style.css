@@ -274,3 +274,18 @@ body {
   background-color: #333333;
   transform: translate(-3px, -50%) rotate(45deg);
 }
+
+
+.__select__title::after {
+  transform: translate(3px, -50%) rotate(-45deg);
+}
+
+.__select__title:hover {
+  border-color: #000000;
+  color: #ffffff;
+}
+
+.__select__title:hover::before,
+.__select__title:hover::after {
+  background-color: rgb(255, 255, 255);
+}
