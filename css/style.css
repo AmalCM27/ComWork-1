@@ -22,3 +22,8 @@ img {
 .logo {
   margin-top: 7px;
 }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
