@@ -305,3 +305,9 @@ body {
   background-color: #ffffff;
   color: #333333;
 }
+
+.reset:hover {
+  background-color: #D8093A;
+  color: #ffffff;
+}
+
