@@ -93,3 +93,15 @@ body {
   align-items: center;
   margin: 0px -139px;
 }
+
+.many {
+  margin-left: 172px;
+  margin-right: -265px;
+  margin-top: 6.5px;
+  margin-bottom: 13px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: -75px;
+}
