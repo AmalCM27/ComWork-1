@@ -352,3 +352,12 @@ body {
   cursor: pointer;
   overflow: hidden;
 }
+
+.__select__label+input+.__select__label {
+  border-top: 0 solid #C7CCD160;
+}
+
+.__select__label:hover {
+  background-color: #333a58 !important;
+  color: #ffffff;
+}
