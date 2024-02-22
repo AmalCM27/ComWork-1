@@ -203,3 +203,16 @@ body {
   flex-grow: 0;
   margin: 206px -416px;
 }
+
+.divider {
+  position: static;
+  width: 40px;
+  height: 0;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 94px;
+  transform: rotate(90.00deg);
+  opacity: 0.4;
+}
+
