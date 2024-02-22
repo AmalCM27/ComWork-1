@@ -85,3 +85,11 @@ body {
   display: flex;
   margin-top: 20px;
 }
+
+.naver {
+  width: 391px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  margin: 0px -139px;
+}
