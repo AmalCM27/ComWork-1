@@ -231,3 +231,20 @@ body {
   margin: 0 auto;
   margin-left: 52px
 }
+
+.__select[data-state=active] .__select__title::before {
+  transform: translate(-3px, -50%) rotate(-45deg);
+}
+
+.__select[data-state=active] .__select__title::after {
+  transform: translate(3px, -50%) rotate(45deg);
+}
+
+.__select[data-state=active] .__select__content {
+  opacity: 1;
+}
+
+.__select[data-state=active] .__select__label+.__select__input+.__select__label {
+  max-height: 40px;
+  border-top-width: 1px;
+}
