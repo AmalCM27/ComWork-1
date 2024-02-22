@@ -143,3 +143,12 @@ body {
   margin-left: -731px;
   color: #fff;
 }
+
+.play_btn {
+  width: 52px;
+  height: -88px;
+  margin-left: -487px;
+  right: 0%;
+  margin-top: -53px;
+  bottom: 0%;
+}
