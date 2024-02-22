@@ -131,3 +131,15 @@ body {
   line-height: 130%;
   color: aliceblue;
 }
+
+
+.btn_two {
+  width: 220px;
+  height: 52px;
+  align-items: center;
+  background: radial-gradient(174.94% 96.38% at 10% 14.000000000000002%, rgb(30, 33, 44), rgb(35, 36, 65) 56.381%, rgb(30, 33, 44) 100%);
+  border-radius: 4px;
+  margin-top: 341px;
+  margin-left: -731px;
+  color: #fff;
+}
