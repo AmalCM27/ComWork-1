@@ -194,3 +194,12 @@ body {
   flex-grow: 0;
   margin: 14px -290px;
 }
+
+.in-chart {
+  height: -109px;
+  display: flex;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 206px -416px;
+}
