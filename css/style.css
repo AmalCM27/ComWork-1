@@ -216,3 +216,11 @@ body {
   opacity: 0.4;
 }
 
+
+.img_person {
+  position: relative;
+  width: 590px;
+  height: 526px;
+  margin-top: -277px;
+  margin-left: 59px;
+}
