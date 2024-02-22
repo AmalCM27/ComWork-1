@@ -331,4 +331,12 @@ body {
 .__select__input {
   display: none;
 }
+ 
+.__select__input:checked+label {
+  background-color: #dedede;
+}
 
+.__select__input:disabled+label {
+  opacity: 0.6;
+  pointer-events: none;
+}
