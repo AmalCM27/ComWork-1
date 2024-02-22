@@ -19,6 +19,8 @@ img {
   display: table;
 }
 
+
+/* section_fon */
 .logo {
   margin-top: 7px;
 }
@@ -56,7 +58,6 @@ body {
   font-family: 'Manrope', arial, sans-serif;
 }
 
-
 .fon {
   height: 1042px;
   background-image: url(../img/fon.jpeg);
@@ -79,7 +80,6 @@ body {
   opacity: 1;
   z-index: 100;
 }
-
 
 .header__wrap {
   display: flex;
@@ -106,7 +106,6 @@ body {
   gap: -75px;
 }
 
-
 .btn {
   min-width: 199px;
   height: 58px;
@@ -119,7 +118,6 @@ body {
   color: #fff;
 }
 
-
 .title__heading-text {
   width: 810px;
   height: 188px;
@@ -131,7 +129,6 @@ body {
   line-height: 130%;
   color: aliceblue;
 }
-
 
 .btn_two {
   width: 220px;
@@ -184,7 +181,6 @@ body {
   margin: 2px 112px;
 }
 
-
 .sec_fet {
   position: static;
   width: 184px;
@@ -215,7 +211,6 @@ body {
   transform: rotate(90.00deg);
   opacity: 0.4;
 }
-
 
 .img_person {
   position: relative;
