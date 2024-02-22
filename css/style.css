@@ -105,3 +105,16 @@ body {
   align-items: flex-start;
   gap: -75px;
 }
+
+
+.btn {
+  min-width: 199px;
+  height: 58px;
+  margin-left: 477px;
+  margin-right: -472px;
+  margin-top: -9px;
+  padding: 0px 40px 0px 40px;
+  border-radius: 4px;
+  background: rgb(119, 114, 241);
+  color: #fff;
+}
