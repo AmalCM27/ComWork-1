@@ -42,6 +42,10 @@ ul li:last-child {
   margin-bottom: 0;
 }
 
+.naver:hover{
+  color: #c4c4c4;
+}
+
 .container {
   max-width: 1440px;
   width: 100%;
@@ -92,6 +96,7 @@ body {
   display: flex;
   align-items: center;
   margin: 0px -139px;
+  transition: 0.4s;
 }
 
 .many {
