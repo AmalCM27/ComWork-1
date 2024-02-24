@@ -139,14 +139,18 @@ body {
 .btn_two {
   width: 220px;
   height: 52px;
-  align-items: center;
   background: radial-gradient(174.94% 96.38% at 10% 14.000000000000002%, rgb(30, 33, 44), rgb(35, 36, 65) 56.381%, rgb(30, 33, 44) 100%);
   border-radius: 4px;
   margin-top: 341px;
   margin-left: -852px;
   color: #fff;
-  transition-timing-function: ;
+  transition: all 0.3s;
+  cursor: pointer;
 }
+
+
+.btn_two:hover {}
+
 
 .play_btn {
   width: 52px;
@@ -257,12 +261,23 @@ body {
   margin-left: -80px;
   border-radius: 100px;
   transition: 1s;
-  cursor: zoom-in;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transform: scale(1.1);
+
 }
 
 .img_person:hover {
-  box-shadow: 0 0 100px rgb(119, 114, 241);
-  transform: scale(1.07);
+  -webkit-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+  -o-transform: rotate(10deg);
+  transform: rotate(10deg);
+  -webkit-box-shadow: 0 0 40px rgba(119, 114, 241), inset 0 0 40px rgba(119, 114, 241);
+  -moz-box-shadow: 0 0 40px rgba(119, 114, 241), inset 0 0 40px rgba(119, 114, 241);
+  box-shadow: 0 0 40px rgba(119, 114, 241), inset 0 0 40px rgba(255, 255, 255, 1);
 }
 
 
