@@ -297,15 +297,16 @@ body {
   order: 0;
   flex-grow: 0;
   margin: 2px 112px;
+  transition: 0.5s;
+}
+
+.icon_box:hover{
+  transform: scale(1.2);
 }
 
 .sec_fet {
-  position: static;
   width: 237px;
   height: 42px;
-  display: flex;
-  order: 1;
-  flex-grow: 0;
   margin: 14px -290px;
 }
 
