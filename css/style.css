@@ -146,10 +146,20 @@ body {
   color: #fff;
   transition: all 0.3s;
   cursor: pointer;
+  background-color: #71b2ae; 
+  font-size: 18px; 
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
 }
 
 
-.btn_two:hover {}
+
+
+.btn_two:hover {
+  background-color: #3f8a7c;
+  box-shadow: 0 0 10px 2px #fff, 0 0 0 5px #3f8a7c;
+  transform: scale(1.05);
+}
 
 
 .play_btn {
