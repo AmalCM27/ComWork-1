@@ -163,6 +163,7 @@ body {
 }
 
 .play_btn:hover {
+  box-shadow: 0 0 100px 80px rgb(136, 136, 201) ;
   animation: none;
   transform: scale(1.3);
 }
