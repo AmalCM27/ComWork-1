@@ -116,7 +116,6 @@ body {
   height: 58px;
   margin-left: 477px;
   margin-right: -472px;
-  background: radial-gradient(174.94% 96.38% at 10% 14.000000000000002%, rgb(30, 33, 44), rgb(35, 36, 65) 56.381%, rgb(30, 33, 44) 100%);
   margin-top: -9px;
   padding: 0px 40px 0px 40px;
   border-radius: 4px;
@@ -127,13 +126,16 @@ body {
   font-size: 16px;
   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.3);
   transition: 0.5s;
+  cursor: pointer;
 }
 
 
-/* .btn:hover {
+.btn:hover {
   box-shadow: 0 0 10px 2px #fff, 0 0 0 5px #3f8a7c;
   transform: scale(1.05);
-} */
+}
+
+
 
 .title__heading-text {
   width: 810px;
