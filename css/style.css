@@ -528,3 +528,21 @@ body {
   font-size: 72px;
   line-height: 130%;
 }
+
+/* section about */
+
+.about_title{
+width: 379px;
+height: 60px;
+left: 345px;
+right: -334px;
+top: 1340px;
+bottom: -1000px;
+color: rgb(30, 33, 44);
+font-family: Lato;
+font-size: 46px;
+font-weight: 900;
+line-height: 130%;
+letter-spacing: 0%;
+text-align: left;
+}
