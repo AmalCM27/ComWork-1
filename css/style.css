@@ -145,6 +145,7 @@ body {
   margin-top: 341px;
   margin-left: -852px;
   color: #fff;
+  transition-timing-function: ;
 }
 
 .play_btn {
