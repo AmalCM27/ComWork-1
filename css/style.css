@@ -564,15 +564,16 @@ body {
   text-align: left;
 }
 
-.btn_about{
-width: 168px;
-height: 44px;
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: center;
-padding: 0px 32px 0px 32px;
-border-radius: 4px;
-background: rgb(119, 114, 241);
-color: #fff;
+.btn_about {
+  width: 168px;
+  height: 44px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 32px 0px 32px;
+  border-radius: 4px;
+  background: rgb(119, 114, 241);
+  color: #fff;
+  text-align: center;
 }
