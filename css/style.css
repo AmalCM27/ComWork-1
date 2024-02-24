@@ -279,10 +279,11 @@ body {
 }
 
 .features {
-  margin: 150px 490px -843px;
+  margin: 150px 545px -843px;
   color: #fff;
   display: flex;
 }
+
 
 .icon_box {
   width: 256px;
@@ -300,7 +301,7 @@ body {
 
 .sec_fet {
   position: static;
-  width: 184px;
+  width: 237px;
   height: 42px;
   display: flex;
   order: 1;
@@ -314,7 +315,7 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 206px -416px;
+  margin: 210px -446px;
 }
 
 .divider {
