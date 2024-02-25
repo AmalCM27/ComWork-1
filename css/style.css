@@ -605,8 +605,7 @@ body {
   margin-top: 178px;
 }
 
-tabs
-.percent .number,
+tabs .percent .number,
 .tab {
   display: flex;
   justify-content: center;
@@ -676,7 +675,7 @@ tabs
 
 .retg .percent .number {
   position: absolute;
-  top: 69px ;
+  top: 69px;
   left: -3px;
   width: 100%;
   height: 100%;
@@ -760,4 +759,34 @@ svg circle:nth-child(2) {
   letter-spacing: 0%;
   text-align: center;
   justify-content: center;
+}
+
+.tablica {
+  position: relative;
+  width: 1230px;
+  height: 46px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+}
+
+.corobka {
+  position: static;
+  width: 246px;
+  height: 46px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 173px 4px 35px 13px;
+  box-sizing: border-box;
+  border: 1px solid rgb(119, 114, 241);
+  border-radius: 4px;
+  color: rgb(119, 114, 241);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: center;
 }
