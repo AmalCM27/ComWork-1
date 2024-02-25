@@ -745,50 +745,19 @@ svg circle:nth-child(2) {
   stroke-dashoffset: calc(440 - (440 * 100) / 100);
   stroke: rgb(3, 206, 164);
 }
-/*  */
 
-
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-
-
-.circular-progress{
-  position: relative;
-  height: 250px;
-  width: 250px;
-  border-radius: 50%;
-  background: conic-gradient(#7d2ae8 3.6deg, #ededed 0deg);
-  display: flex;
+/* our */
+.our_title {
   align-items: center;
+  /* width: 365px; */
+  height: -96px;
+  /* margin-left: 829px; */
+  margin-right: 121px;
+  margin-top: 194px;
+  font-size: 46px;
+  font-weight: 900;
+  /* line-height: 130%; */
+  letter-spacing: 0%;
+  text-align: center;
   justify-content: center;
 }
-.circular-progress::before{
-  content: "";
-  position: absolute;
-  height: 210px;
-  width: 210px;
-  border-radius: 50%;
-  background-color: #fff;
-}
-.progress-value{
-  position: relative;
-  font-size: 40px;
-  font-weight: 600;
-  color: #7d2ae8;
-}
-.text{
-  font-size: 30px;
-  font-weight: 500;
-  color: #606060;
-}
-
-.qwerty{
-  display: flex;
-  width: 420px;
-  padding: 50px 0;
-  border-radius: 8px;
-  background: #fff;
-  row-gap: 30px;
-  flex-direction: column;
-  align-items: center;
-} */
-
