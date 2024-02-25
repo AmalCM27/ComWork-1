@@ -19,7 +19,6 @@ img {
   display: table;
 }
 
-
 /* section_fon */
 .logo {
   margin-top: 7px;
@@ -48,7 +47,6 @@ ul li:last-child {
 
 .container {
   max-width: 1440px;
-  /* width: 100%; */
   min-width: 320px;
   margin: 0 auto;
   padding: 0 15px;
@@ -130,13 +128,10 @@ body {
   cursor: pointer;
 }
 
-
 .btn:hover {
   box-shadow: 0 0 10px 2px #fff, 0 0 0 5px #3f8a7c;
   transform: scale(1.05);
 }
-
-
 
 .title__heading-text {
   width: 810px;
@@ -238,7 +233,6 @@ body {
   transform: scale(1.05);
 }
 
-
 .play_btn {
   width: 52px;
   height: -88px;
@@ -295,7 +289,6 @@ body {
   display: flex;
 }
 
-
 .icon_box {
   width: 256px;
   height: 40px;
@@ -341,7 +334,6 @@ body {
   margin: 0px 94px;
   transform: rotate(90.00deg);
   opacity: 0.4;
-
 }
 
 .divider::before {
@@ -371,7 +363,6 @@ body {
   -ms-transition: all 1s ease;
   -o-transition: all 1s ease;
   transform: scale(1.1);
-
 }
 
 .img_person:hover {
@@ -384,7 +375,6 @@ body {
   -moz-box-shadow: 0 0 40px rgba(119, 114, 241), inset 0 0 40px rgba(119, 114, 241);
   box-shadow: 0 0 40px rgba(119, 114, 241), inset 0 0 40px rgba(255, 255, 255, 1);
 }
-
 
 /* select */
 .__select {
@@ -439,7 +429,6 @@ body {
   transform: translate(-3px, -50%) rotate(45deg);
 }
 
-
 .__select__title::after {
   transform: translate(3px, -50%) rotate(-45deg);
 }
@@ -453,7 +442,6 @@ body {
 .__select__title:hover::after {
   background-color: rgb(255, 255, 255);
 }
-
 
 .reset {
   display: flex;
@@ -539,7 +527,6 @@ body {
 }
 
 /* section about */
-
 .about_title {
   width: 438px;
   height: 100px;
@@ -563,10 +550,8 @@ body {
   right: -345px;
   top: 1440px;
   bottom: -1248px;
-  /* base/regular */
   color: rgb(120, 122, 128);
   font-family: 'Manrope', arial, sans-serif;
-
   font-size: 16px;
   font-weight: 400;
   line-height: 160%;
@@ -595,7 +580,7 @@ body {
 .card {
   margin-left: 4px;
   margin-right: 157.4px;
-  margin-top: 121px;
+  margin-top: 74px;
   font-family: 'Manrope', arial, sans-serif;
 
 }
@@ -620,8 +605,7 @@ body {
   margin-top: 178px;
 }
 
-/* tabs */
-
+tabs
 .percent .number,
 .tab {
   display: flex;
@@ -692,8 +676,8 @@ body {
 
 .retg .percent .number {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 69px ;
+  left: -3px;
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -761,3 +745,50 @@ svg circle:nth-child(2) {
   stroke-dashoffset: calc(440 - (440 * 100) / 100);
   stroke: rgb(3, 206, 164);
 }
+/*  */
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+.circular-progress{
+  position: relative;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background: conic-gradient(#7d2ae8 3.6deg, #ededed 0deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circular-progress::before{
+  content: "";
+  position: absolute;
+  height: 210px;
+  width: 210px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.progress-value{
+  position: relative;
+  font-size: 40px;
+  font-weight: 600;
+  color: #7d2ae8;
+}
+.text{
+  font-size: 30px;
+  font-weight: 500;
+  color: #606060;
+}
+
+.qwerty{
+  display: flex;
+  width: 420px;
+  padding: 50px 0;
+  border-radius: 8px;
+  background: #fff;
+  row-gap: 30px;
+  flex-direction: column;
+  align-items: center;
+} */
+
