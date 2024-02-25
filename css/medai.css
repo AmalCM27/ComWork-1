@@ -1,0 +1,9 @@
+/* tabs */
+@media (max-width: 600px){
+  .tabs_item{
+    display: block;
+    width: 100px;
+    overflow: hidden;
+    font-size: 14px;
+  }
+}
