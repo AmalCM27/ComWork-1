@@ -593,10 +593,10 @@ body {
 }
 
 .card {
-    margin-left: 4px;
-    margin-right: 157.4px;
-    margin-top: 121px;
-    font-family: 'Manrope', arial, sans-serif;
+  margin-left: 4px;
+  margin-right: 157.4px;
+  margin-top: 121px;
+  font-family: 'Manrope', arial, sans-serif;
 
 }
 
@@ -616,6 +616,148 @@ body {
   text-align: left;
 }
 
-.cards{
+.cards {
   margin-top: 178px;
+}
+
+/* tabs */
+
+.percent .number,
+.tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.retg {
+  position: relative;
+  width: 1059px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 106px;
+  margin-top: 103px;
+}
+
+.retg .tab {
+  background: linear-gradient(45deg, #333333, #5A5454);
+  position: relative;
+  width: 199px;
+  height: 273px;
+  border-radius: 25px;
+  /* background: rgba(0, 0, 0, 0.5); */
+  cursor: pointer;
+  text-align: center;
+  overflow: hidden;
+  transition: 0.5s ease;
+}
+
+.retg .tab:hover {
+  transform: translatey(-15px);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
+}
+
+.retg .tab:hover .number h2 {
+  color: #fff;
+  font-size: 50px;
+}
+
+.retg .tab:hover .number h2 span {
+  color: #fff;
+}
+
+.retg .tab:hover h3 {
+  color: #fff;
+}
+
+.retg .tab:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -50%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.03);
+  pointer-events: none;
+}
+
+.retg .percent {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: inset 0 0 50px #000;
+  background-color: #222;
+  z-index: 1;
+}
+
+.retg .percent .number {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.retg .percent .number h2 {
+  color: #777;
+  font-size: 44px;
+  transition: 0.5s ease;
+}
+
+.retg .percent .number h2 span {
+  color: #777;
+  padding-left: 3px;
+  font-size: 24px;
+  transition: 0.5s ease;
+}
+
+.retg .percent h3 {
+  margin-top: 16px;
+  color: #777;
+  font-size: 17px;
+  transition: 0.5s ease;
+  width: 161px;
+}
+
+svg {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  transform: rotate(-85deg);
+}
+
+svg circle {
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke: #191919;
+  stroke-width: 10;
+  stroke-linecap: round;
+  transform: translate(5px, 5px);
+}
+
+svg circle:nth-child(2) {
+  stroke-dasharray: 440;
+  stroke-dashoffset: 440;
+}
+
+.tab:nth-child(1) svg circle:nth-child(2) {
+  stroke-dashoffset: calc(480 - (440 * 90) / 100);
+  stroke: rgb(248, 40, 190);
+}
+
+.tab:nth-child(2) svg circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (550 * 60) / 100);
+  stroke: rgb(245, 47, 110);
+}
+
+.tab:nth-child(3) svg circle:nth-child(2) {
+  stroke-dashoffset: calc(270 - (440 * 40) / 100);
+  stroke: rgb(90, 135, 252);
+}
+
+.tab:nth-child(4) svg circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (440 * 100) / 100);
+  stroke: rgb(3, 206, 164);
 }
