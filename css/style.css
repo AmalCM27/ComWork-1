@@ -48,7 +48,7 @@ ul li:last-child {
 
 .container {
   max-width: 1440px;
-  width: 100%;
+  /* width: 100%; */
   min-width: 320px;
   margin: 0 auto;
   padding: 0 15px;
@@ -150,12 +150,12 @@ body {
   color: aliceblue;
 }
 
-  .title {
-    margin-left: 858px;
-    margin-top: -72px;
-    width: 100%;
-    /* height: 75px; */
-    clear: both;
+.title {
+  margin-left: 392px;
+  margin-top: -149px;
+  width: 100px;
+  /* height: 75px; */
+  clear: both;
 }
 
 .btn_two {
@@ -593,14 +593,11 @@ body {
 }
 
 .card {
-  /* position: absolute; */
-  /* width: 638px; */
-  /* height: 711px; */
-  margin-left: 157px;
-  margin-right: 157.39999999999998px;
-  margin-top: 121px;
-  /* margin-bottom: 5699px; */
-  font-family: 'Manrope', arial, sans-serif;
+    margin-left: 4px;
+    margin-right: 157.4px;
+    margin-top: 121px;
+    font-family: 'Manrope', arial, sans-serif;
+
 }
 
 .about_tit {
