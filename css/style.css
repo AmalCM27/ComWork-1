@@ -966,25 +966,10 @@ svg circle:nth-child(2) {
   width: 144px;
   height: 44px;
   display: flex;
-  /* flex-direction: column; */
-  /* justify-content: flex-start; */
-  /* align-items: center; */
-  /* padding: 0px 32px 0px 32px; */
-  /* flex: none; */
-  /* order: 0; */
-  /* flex-grow: 0; */
   margin: 0px 24px;
   box-sizing: border-box;
   border: 1px solid rgb(119, 114, 241);
-  /* border-radius: 4px; */
-  /* flex-direction: column; */
-  /* justify-content: flex-start; */
-  /* align-items: center; */
   padding: 14px 32px 0px 32px;
-  /* flex: none; */
-  /* order: 0; */
-  /* flex-grow: 0; */
-  /* margin: 10px 26px; */
   color:  rgb(119, 114, 241);
   font-weight: 700;
 }
@@ -998,9 +983,6 @@ svg circle:nth-child(2) {
   justify-content: flex-start;
   align-items: center;
   padding: 14px 32px 0px 32px;
-  /* flex: none; */
-  /* order: 1; */
-  /* flex-grow: 0; */
   margin: 0px 24px;
   border-radius: 4px;
   background: rgb(119, 114, 241);
